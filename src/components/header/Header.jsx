@@ -1,0 +1,16 @@
+
+import styles from "./header.module.scss";
+const Header = () => {
+  return (
+    <div>
+      <header className={styles.header}>
+        <ul>           
+            <li><a href ="#">MissSomali</a></li>
+            <li><a href ="#">All Compitators</a></li>
+        </ul>
+      </header>
+    </div>
+  )
+}
+
+export default Header
